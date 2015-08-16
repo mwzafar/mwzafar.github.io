@@ -1,0 +1,280 @@
+<!-- Waqas Zafar - 212528705 -->
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Menu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="themes/theme.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" /> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="test.css">
+</head>
+
+<body>
+
+	<div data-role="page" id="menu" data-theme="d">
+    
+<!-- Navigation bar -->
+    
+		<div data-role="navbar" data-grid="c">
+   			<ul>
+        		<li><a href="home.html" class="ui-btn-active">Home</a></li>
+        		<li><a href="information.html">Information</a></li>
+        		<li><a href="feedback.html">Feedback</a></li>
+        		<li><a href="developer.html">Developer</a></li>  
+    		</ul>
+		</div>
+		<div data-role="content">
+			<div id="branding">
+				<h1>Menu </h1>
+			</div>
+		<div class="choice_list">
+        
+<!-- Display menu --> 
+		
+        	<h1> What do you like to eat? </h1>
+
+				<div data-role="collapsible">
+					<h1>Pizza </h1>
+						<p> <a href="#chicken">Chicken </a></p>
+						<p> <a href="#beef">Beef </a></p>
+				</div>
+
+				<div data-role="collapsible">
+					<h1> Burgers </h1>
+						<p> <a href="#chickenburger"> Chicken </a></p>
+						<p> <a href="#beefburger"> Beef </a></p>
+				</div>
+
+				<div data-role="collapsible">
+					<h1> Desserts </h1>
+						<p> <a href="#chocolate"> Chocolate Cake </a></p>
+						<p> <a href="#waffles"> Waffles </a></p>
+				</div>
+
+				<div data-role="collapsible">
+					<h1> Drinks </h1>
+						<p> <a href="#shake"> Milk Shake </a></p>
+						<p> <a href="#soda"> Lemon Soda </a></p>
+				</div>
+
+		</div>
+		</div>
+        <div data-role="footer" data-position="fixed">
+    		<h3>&copy Waqas Zafar (2015)</h3>
+  		</div>
+	</div>
+    
+<!-- Display recipe -->
+
+	<div data-role="page" id="chicken" data-theme="d">
+		<div data-role="navbar">
+			<ul> 
+				<li><a href="#menu"> BACK </a></li> 
+			</ul>
+		</div>
+	<div data-role="content">
+		<div id="branding">
+			<img style="width:50%" src="chickenpizza.jpg">
+				<h1> Chicken Pizza </h1>
+					<h2> Recipe </h2>
+						<p> Chicken </p>
+						<p> Mozrella Cheese </p>
+						<p> Dough </p>
+						<p> Black Olives </p>
+						<p> Onions </p>
+						<p> Oregano </p>
+ 
+		</div>
+    	<div data-role="footer" data-position="fixed">
+    		<h3>&copy Waqas Zafar (2015)</h3>
+  		</div>
+	</div>
+	</div>
+<!-- Display recipe -->
+
+	<div data-role="page" id="beef" data-theme="d">
+		<div data-role="navbar">
+			<ul> 
+				<li><a href="#menu"> BACK </a></li> 
+			</ul>
+		</div>
+	<div data-role="content">
+		<div id="branding">
+			<img style="width:50%"src="beefpizza.jpg">
+				<h1> Beef Pizza </h1>
+					<h2> Recipe </h2>
+						<p> Beef </p>
+						<p> Mozrella Cheese </p>
+						<p> Dough </p>
+						<p> Salami </p>
+						<p> Onions </p>
+						<p> Oregano </p>
+						<p> Tomatoes </p>
+		</div>
+	</div>
+    	<div data-role="footer" data-position="fixed">
+    		<h3>&copy Waqas Zafar (2015)</h3>
+  		</div>
+	</div>
+
+<!-- Display recipe -->
+
+	<div data-role="page" id="chickenburger" data-theme="d">
+		<div data-role="navbar">
+			<ul> 
+				<li><a href="#menu"> BACK </a></li> 
+			</ul>
+		</div>
+	<div data-role="content">
+		<div id="branding">
+			<img style="width:50%"src="chickenburger.jpg">
+				<h1> Chicken Burger </h1>
+					<h2> Recipe </h2>
+						<p> Chicken </p>
+						<p> Cheese </p>
+						<p> Lettuce </p>
+						<p> Tomatoes </p>
+						<p> Onions </p>
+						<p> Bun </p>
+ 
+		</div>
+	</div>
+   	 	<div data-role="footer" data-position="fixed">
+    		<h3>&copy Waqas Zafar (2015)</h3>
+  		</div>
+	</div>
+    
+<!-- Display recipe -->
+
+	<div data-role="page" id="beefburger" data-theme="d">
+		<div data-role="navbar">
+			<ul> 
+				<li><a href="#menu"> BACK </a></li> 
+			</ul>
+		</div>
+	<div data-role="content">
+		<div id="branding">
+			<img style="width:50%"src="beefburger.jpg">
+				<h1> Beef Burger </h1>
+					<h2> Recipe </h2>
+						<p> Beef </p>
+						<p> Cheese </p>
+						<p> Lettuce </p>
+						<p> Tomatoes </p>
+						<p> Onions </p>
+						<p> Special Bun </p>
+ 
+		</div>
+	</div>
+    	<div data-role="footer" data-position="fixed">
+    		<h3>&copy Waqas Zafar (2015)</h3>
+  		</div>
+	</div>
+
+<!-- Display recipe -->
+
+	<div data-role="page" id="chocolate" data-theme="d">
+		<div data-role="navbar">
+			<ul> 
+				<li><a href="#menu"> BACK </a></li> 
+			</ul>
+		</div>
+	<div data-role="content">
+		<div id="branding">
+			<img style="width:50%"src="chocolate.jpg">
+				<h1> Chocolate Cake </h1>
+					<h2> Recipe </h2>
+						<p> Chocolate powder </p>
+						<p> Butter </p>
+						<p> Sugar </p>
+						<p> Milk </p>
+						<p> Flour </p>
+						<p> Eggs </p>
+ 
+		</div>
+	</div>
+    	<div data-role="footer" data-position="fixed">
+    		<h3>&copy Waqas Zafar (2015)</h3>
+  		</div>
+	</div>
+    
+<!-- Display recipe -->
+
+	<div data-role="page" id="waffles" data-theme="d">
+		<div data-role="navbar">
+			<ul> 
+				<li><a href="#menu"> BACK </a></li> 
+			</ul>
+		</div>
+	<div data-role="content">
+		<div id="branding">
+			<img style="width:50%"src="waffles.jpg">
+				<h1> Waffles </h1>
+					<h2> Recipe </h2>
+						<p> Flour </p>
+						<p> Butter </p>
+						<p> Sugar </p>
+						<p> Milk </p>
+						<p> Eggs </p>
+						<p> Toppings (beef, icecream, strawberries) optional </p>
+		</div>
+	</div>
+    	<div data-role="footer" data-position="fixed">
+    		<h3>&copy Waqas Zafar (2015)</h3>
+  		</div>
+	</div>
+
+<!-- Display recipe -->
+
+	<div data-role="page" id="shake" data-theme="d">
+		<div data-role="navbar">
+			<ul> 
+				<li><a href="#menu"> BACK </a></li> 
+			</ul>
+		</div>
+	<div data-role="content">
+		<div id="branding">
+			<img style="width:50%"src="shake.jpg">
+				<h1> Milk Shape </h1>
+					<h2> Recipe </h2>
+					<p> Fruit (banana, strawberry, mango) </p>
+					<p> Milk </p>
+					<p> Sugar </p>
+                    
+		</div>
+	</div>
+    	<div data-role="footer" data-position="fixed">
+    		<h3>&copy Waqas Zafar (2015)</h3>
+  		</div>
+	</div>
+
+<!-- Display recipe -->
+
+	<div data-role="page" id="soda" data-theme="d">
+		<div data-role="navbar">
+			<ul> 
+				<li><a href="#menu"> BACK </a></li> 
+			</ul>
+		</div>
+	<div data-role="content">
+		<div id="branding">
+			<img style="width:50%"src="soda.jpg">
+				<h1> Lemon Soda </h1>
+					<h2> Recipe </h2>
+					<p> Lemon </p>
+					<p> Sparkling Water </p>
+					<p> Sugar </p>
+		</div>
+	</div>
+     	<div data-role="footer" data-position="fixed">
+    		<h3>&copy Waqas Zafar (2015)</h3>
+  		</div>
+	</div>
+    
+</body>
+</html>

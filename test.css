@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width:980px){
+        .ui-content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:947px;
+    text-align:center;
+        }
+           
+       
+}
+@media screen and (max-width:460px){
+        .img-thumbnail{
+                max-width:100px;               
+        }
+
+}
